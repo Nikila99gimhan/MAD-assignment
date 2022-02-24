@@ -5,4 +5,94 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/untitled"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="190dp"
+        android:layout_height="211dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="111dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageName"
+        android:layout_width="292dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageLogo"
+        app:srcCompat="@drawable/name" />
+
+    <Button
+        android:id="@+id/helpButton1"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_baseline_help_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="241dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="75dp"
+        android:backgroundTint="#FDF3E9"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Login"
+        android:textColor="#512D18"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:cornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageName"
+        app:rippleColor="#512D18" />
+
+    <TextView
+        android:id="@+id/textViewOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="serif"
+        android:text="OR"
+        android:textColor="#FDF3E9"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="241dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#FDF3E9"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:shadowColor="#ffffff"
+        android:shadowRadius="100"
+        android:text="Sign Up"
+        android:textColor="#512D18"
+        android:textColorLink="#512D18"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:cornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
+        android:shadowDx="100"
+        android:shadowDy="100"  />
+</androidx.constraintlayout.widget.ConstraintLayout>
