@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Choon Paan</string>
+    <string name="forgot_password"><u>Forgot Password ?</u></string>
+    <string name="signin"><u>Sign In</u></string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="are_you_new">Are you new?</string>
+    <string name="login">Login</string>
+    <string name="cart">Cart</string>
+    <string name="forgot_password1">Forgot Password</string>
+    <string name="enter_your_email">Enter Your Email:</string>
+    <string name="submit">Submit</string>
 </resources>
