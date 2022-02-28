@@ -10,8 +10,9 @@ class Activity_Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val backbutton1: Button =findViewById<Button>(R.id.backButton2)
+        val backbutton1: Button =findViewById<Button>(R.id.cancelButton)
         val forgotButton: Button =findViewById<Button>(R.id.forgotPwButton)
+        val signbtn:Button=findViewById(R.id.signInLpageButton)
 
         backbutton1.setOnClickListener {
             val intent= Intent(this,MainActivity::class.java)
@@ -20,6 +21,11 @@ class Activity_Login : AppCompatActivity() {
 
         forgotButton.setOnClickListener {
             val intent= Intent(this,ForgetPassword::class.java)
+            startActivity(intent)
+        }
+
+        signbtn.setOnClickListener {
+            val intent= Intent(this,RegistrationActivity::class.java)
             startActivity(intent)
         }
     }
