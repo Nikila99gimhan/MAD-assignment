@@ -10,4 +10,19 @@
     <string name="forgot_password1">Forgot Password</string>
     <string name="enter_your_email">Enter Your Email:</string>
     <string name="submit">Submit</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="confirm_password">Repeat Password</string>
+    <string name="accept_all_terms_and_conditions">Accept All Terms and Conditions</string>
+    <string name="david">David</string>
+    <string name="perera">Perera</string>
+    <string name="david_perera_gmail_com">david.perera@gmail.com</string>
+    <string name="_07">07********</string>
+    <string name="no_23_peris_rd_nawala">No.23,Peris Rd, Nawala</string>
+    <string name="password2">Enter Password</string>
+    <string name="re_enter_password">Re-Enter Password</string>
 </resources>
