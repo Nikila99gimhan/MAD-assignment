@@ -11,7 +11,7 @@
         android:id="@+id/paymentTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="56dp"
         android:background="@drawable/dark_background"
         android:fontFamily="serif"
         android:text="Payment"
@@ -22,4 +22,38 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/light_backgroud"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank"
+        android:textColor="#512D18"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <ListView
+        android:id="@+id/dropDownList"
+        android:layout_width="287dp"
+        android:layout_height="61dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="268dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

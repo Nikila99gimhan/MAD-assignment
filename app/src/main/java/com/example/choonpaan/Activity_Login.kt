@@ -15,7 +15,7 @@ class Activity_Login : AppCompatActivity() {
         val signbtn:Button=findViewById(R.id.signInLpageButton)
 
         backbutton1.setOnClickListener {
-            val intent= Intent(this,MainActivity::class.java)
+            val intent= Intent(this,Payment::class.java)
             startActivity(intent)
         }
 

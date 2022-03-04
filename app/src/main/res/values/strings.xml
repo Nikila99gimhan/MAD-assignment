@@ -25,4 +25,14 @@
     <string name="no_23_peris_rd_nawala">No.23,Peris Rd, Nawala</string>
     <string name="password2">Enter Password</string>
     <string name="re_enter_password">Re-Enter Password</string>
+
+    <string-array name="bankNames">
+        <item>-Select-</item>
+        <item>Sampath Bank</item>
+        <item>Seylan Bank</item>
+        <item>DFCC Bank</item>
+        <item>HNB Bank</item>
+        <item>NSB Bank</item>
+        <item>Commercial Bank</item>
+    </string-array>
 </resources>
