@@ -49,11 +49,4 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="268dp" />
 
-    <ListView
-        android:id="@+id/dropDownList"
-        android:layout_width="287dp"
-        android:layout_height="61dp"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="268dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
