@@ -2,11 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/untitled_2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/untitled_2"
-    tools:context=".ViewCartActivity">
-
+    tools:context=".ViewCart">
     <Button
         android:id="@+id/notButton2"
         android:layout_width="45dp"
@@ -52,7 +51,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.072" />
-
     <ListView
         android:id="@+id/cartView01"
         android:layout_width="340dp"
@@ -62,18 +60,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ViewCartTopic" />
+        app:layout_constraintTop_toBottomOf="@+id/ViewCartTopic"/>
 
     <ListView
         android:id="@+id/cartView02"
         android:layout_width="340dp"
         android:layout_height="120dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/light_backgroud"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cartView01" />
+        app:layout_constraintTop_toBottomOf="@+id/cartView01"
+        tools:ignore="AdapterViewChildren"/>
 
     <ListView
         android:id="@+id/cartView03"
@@ -92,7 +91,7 @@
         android:layout_height="58dp"
         android:backgroundTint="#FDF3E9"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Cancel"
+        android:text="@string/cancel"
         android:textColor="#512D18"
         android:textSize="20sp"
         android:visibility="visible"
@@ -113,16 +112,56 @@
         android:layout_marginBottom="44dp"
         android:backgroundTint="#FDF3E9"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="CheckOut"
+        android:text="@string/checkout"
         android:textColor="#512D18"
         android:textSize="20sp"
         android:visibility="visible"
         app:cornerRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.581"
-        app:layout_constraintStart_toEndOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.427"
-        app:rippleColor="#512D18" />"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toEndOf="@+id/cancelButton"
+        app:layout_constraintTop_toBottomOf="@+id/cartView03"
+        app:layout_constraintVertical_bias="0.944"
+        app:rippleColor="#512D18" />
+
+    <CheckBox
+        android:id="@+id/cancelButn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="60dp"
+        android:button="@drawable/cancel_ltem"
+        app:layout_constraintBottom_toBottomOf="@+id/cartView01"
+        app:layout_constraintEnd_toEndOf="@+id/cartView01"
+        app:layout_constraintStart_toStartOf="@+id/cartView01"
+        app:layout_constraintTop_toTopOf="@+id/cartView01"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/cancelButn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="60dp"
+        android:button="@drawable/cancel_ltem"
+        app:layout_constraintBottom_toBottomOf="@+id/cartView02"
+        app:layout_constraintEnd_toEndOf="@+id/cartView02"
+        app:layout_constraintStart_toStartOf="@+id/cartView02"
+        app:layout_constraintTop_toTopOf="@+id/cartView02"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/cancelButn03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="60dp"
+        android:button="@drawable/cancel_ltem"
+        app:layout_constraintBottom_toBottomOf="@+id/cartView03"
+        app:layout_constraintEnd_toEndOf="@+id/cartView03"
+        app:layout_constraintStart_toStartOf="@+id/cartView03"
+        app:layout_constraintTop_toTopOf="@+id/cartView03"
+        app:useMaterialThemeColors="false" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
