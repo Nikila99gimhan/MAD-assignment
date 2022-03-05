@@ -25,6 +25,9 @@
     <string name="no_23_peris_rd_nawala">No.23,Peris Rd, Nawala</string>
     <string name="password2">Enter Password</string>
     <string name="re_enter_password">Re-Enter Password</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="cancel">Cancel</string>
+    <string name="checkout">CheckOut</string>
 
     <string-array name="bankNames">
         <item>-Select-</item>
