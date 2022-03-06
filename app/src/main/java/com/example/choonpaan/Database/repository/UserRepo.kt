@@ -2,7 +2,7 @@ package com.onepos.posandroidv2.database.repository
 
 import android.annotation.SuppressLint
 import android.content.Context
-import com.example.choonpaan.database.AppDatabase
+import com.example.choonpaan.Database.AppDatabase
 import com.example.choonpaan.database.entity.User
 
 class UserRepo(val context: Context) {

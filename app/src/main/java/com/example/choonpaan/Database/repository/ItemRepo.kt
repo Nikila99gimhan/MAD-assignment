@@ -1,4 +1,4 @@
-package com.onepos.posandroidv2.database.repository
+package com.onepos.posandroidv2.Database.repository
 
 import android.annotation.SuppressLint
 import android.content.Context

@@ -3,6 +3,7 @@ package com.example.choonpaan.database.entity
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
+import com.example.choonpaan.Database.entity.Item
 
 @Entity(tableName = "pre_order_item",foreignKeys = [ForeignKey(entity = Item::class,parentColumns = ["id"],childColumns = ["item_id"])])
 
