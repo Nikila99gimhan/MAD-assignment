@@ -18,6 +18,13 @@ plugins {
 }
 apply plugin: 'com.google.gms.google-services'
 
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+
 
 android {
     compileSdk 32
@@ -61,4 +68,10 @@ dependencies {
     //Import Firebase
     implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
     implementation'com.google.firebase:firebase-functions-ktx:20.0.1'
+    implementation("androidx.room:room-runtime:2.4.2")
+    annotationProcessor("androidx.room:room-compiler:2.4.2")
+
+    // To use Kotlin annotation processing tool (kapt)
+    kapt("androidx.room:room-compiler:2.4.2")
+
 }
