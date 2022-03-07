@@ -12,6 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChoonPaan">
         <activity
+            android:name=".Order_Now_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_choonPaan"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyByIEZyfkKrdsBVZjhqYzEwJMf5NlGzNnc" />
+
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_map"
+            android:theme="@style/Theme.ChoonPaan.NoActionBar" />
+        <activity
             android:name=".OrderPlaced"
             android:exported="false" />
         <activity
@@ -25,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".Payment"
-            android:exported="false" />
-        <activity
-            android:name=".ViewCartActivity"
             android:exported="false" />
         <activity
             android:name=".ForgetPassword"
