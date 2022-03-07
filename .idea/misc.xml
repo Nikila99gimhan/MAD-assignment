@@ -6,10 +6,26 @@
         <entry key="..\:/Kotlin/groupProject/MAD-assignment/app/src/main/res/drawable/light_backgroud.xml" value="0.2595" />
         <entry key="..\:/Kotlin/groupProject/MAD-assignment/app/src/main/res/layout/activity_login.xml" value="0.2006340579710145" />
         <entry key="..\:/Kotlin/groupProject/MAD-assignment/app/src/main/res/layout/payment.xml" value="0.2006340579710145" />
+<<<<<<< HEAD
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/activity_choon_paan.xml" value="0.11614583333333334" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/activity_main.xml" value="0.10461956521739131" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/activity_map.xml" value="0.264" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/activity_order_now.xml" value="0.11614583333333334" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/activity_order_placed.xml" value="0.20520833333333333" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/activity_payment_form.xml" value="0.20520833333333333" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/activity_registration.xml" value="0.20520833333333333" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/app_bar_map.xml" value="0.18645833333333334" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/content_map.xml" value="0.11614583333333334" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/fragment_gallery.xml" value="0.18645833333333334" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/fragment_home.xml" value="0.18645833333333334" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/fragment_slideshow.xml" value="0.18645833333333334" />
+        <entry key="..\:/Lecture Notes/3rd year 1st semester/Mobile Aplication Development (MAD)/Assingment/CHoon pan/MAD-assignment/app/src/main/res/layout/nav_header_map.xml" value="0.18645833333333334" />
+=======
         <entry key="..\:/NSBM/THIRD YEAR/MAD/original_project/MAD-assignment/app/src/main/res/layout/activity_complains.xml" value="0.358695652173913" />
         <entry key="..\:/NSBM/THIRD YEAR/MAD/original_project/MAD-assignment/app/src/main/res/layout/activity_contact_us.xml" value="0.30052083333333335" />
         <entry key="..\:/NSBM/THIRD YEAR/MAD/original_project/MAD-assignment/app/src/main/res/layout/activity_favourites.xml" value="0.18541666666666667" />
         <entry key="..\:/NSBM/THIRD YEAR/MAD/original_project/MAD-assignment/app/src/main/res/layout/activity_help.xml" value="0.30052083333333335" />
+>>>>>>> c37ddc495673d819df34b24b7a71cd8a3d742d89
         <entry key="..\:/New folder/MAD-assignment/app/src/main/res/layout/newarrivals.xml" value="0.17074275362318841" />
         <entry key="..\:/New folder/MAD-assignment/app/src/main/res/layout/payment.xml" value="0.1287568306010929" />
         <entry key="..\:/Users/ASUS/Desktop/MAD/MAD-assignment/app/src/main/res/drawable/cancel_litem.xml" value="0.264" />
