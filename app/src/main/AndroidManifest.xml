@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChoonPaan">
         <activity
+<<<<<<< HEAD
             android:name=".Order_Now_Activity"
             android:exported="false" />
         <activity
@@ -27,6 +28,19 @@
             android:exported="false"
             android:label="@string/title_activity_map"
             android:theme="@style/Theme.ChoonPaan.NoActionBar" />
+=======
+            android:name=".activity_help"
+            android:exported="false" />
+        <activity
+            android:name=".activity_contact_us"
+            android:exported="false" />
+        <activity
+            android:name=".activity_favourites"
+            android:exported="false" />
+        <activity
+            android:name=".activity_complains"
+            android:exported="false" />
+>>>>>>> c37ddc495673d819df34b24b7a71cd8a3d742d89
         <activity
             android:name=".OrderPlaced"
             android:exported="false" />
