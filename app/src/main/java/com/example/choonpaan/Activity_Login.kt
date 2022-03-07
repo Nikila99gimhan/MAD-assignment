@@ -13,6 +13,7 @@ class Activity_Login : AppCompatActivity() {
         val backbutton1: Button =findViewById<Button>(R.id.cancelButton)
         val forgotButton: Button =findViewById<Button>(R.id.forgotPwButton)
         val signbtn:Button=findViewById(R.id.signInLpageButton)
+        val login:Button=findViewById(R.id.loginPageButton)
 
         backbutton1.setOnClickListener {
             val intent= Intent(this,Payment::class.java)
@@ -26,6 +27,10 @@ class Activity_Login : AppCompatActivity() {
 
         signbtn.setOnClickListener {
             val intent= Intent(this,RegistrationActivity::class.java)
+            startActivity(intent)
+        }
+        login.setOnClickListener{
+            val intent=Intent(this,HomPage::class.java)
             startActivity(intent)
         }
     }
