@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Choon Paan</string>
     <string name="forgot_password"><u>Forgot Password ?</u></string>
-    <string name="signin"><u>Sign In</u></string>
+    <string name="signup"><u>Sign In</u></string>
     <string name="username">UserName</string>
     <string name="password">Password</string>
     <string name="are_you_new">Are you new?</string>
