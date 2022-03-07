@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChoonPaan">
         <activity
+            android:name=".activity_help"
+            android:exported="false" />
+        <activity
+            android:name=".activity_contact_us"
+            android:exported="false" />
+        <activity
+            android:name=".activity_favourites"
+            android:exported="false" />
+        <activity
+            android:name=".activity_complains"
+            android:exported="false" />
+        <activity
             android:name=".OrderPlaced"
             android:exported="false" />
         <activity
