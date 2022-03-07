@@ -104,7 +104,7 @@
         android:layout_height="56dp"
         android:background="#00FFFFFF"
         android:fontFamily="serif"
-        android:text="@string/signin"
+        android:text="@string/sign_up"
         android:textSize="23sp"
 
         app:layout_constraintBottom_toBottomOf="parent"
