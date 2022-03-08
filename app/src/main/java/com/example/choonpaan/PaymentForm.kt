@@ -24,17 +24,17 @@ class PaymentForm : AppCompatActivity() {
             val cnumber=cardNumberInput.text.toString()
             val cname=customerNameInput.text.toString()
             val edate=expiryDate.text.toString()
-            val cvv=cvv.text.toString()
+            val cvv=cvvInput.text.toString()
             if(bname == "") {
-                fnameInput.error="Empty Field !!"
+                bankNameInput.error="Empty Field !!"
             } else if(cnumber == "") {
-                lnameInput.error="Empty Field !!"
+                cardNumberInput.error="Empty Field !!"
             }else if ( cname == ""){
-                emailInput.error="Empty Field !!"
+                customerNameInput.error="Empty Field !!"
             }else if (edate == "" ){
-                phoneInput.error="Empty Field !!"
+                expiryDate.error="Empty Field !!"
             }else if(cvv == ""){
-                pWInput.error="Empty Field !!"
+                cvvInput.error="Empty Field !!"
             }else if (!(radioVisa.isChecked) || !(radioMaster.isChecked)){
                 Toast.makeText(this, "Please select the card type!!", Toast.LENGTH_SHORT).show()
             }else{
