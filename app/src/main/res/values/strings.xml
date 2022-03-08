@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Choon Paan</string>
     <string name="forgot_password"><u>Forgot Password ?</u></string>
     <string name="signup"><u>Sign In</u></string>
@@ -9,11 +9,11 @@
     <string name="cart">Cart</string>
     <string name="forgot_password1">Forgot Password</string>
     <string name="enter_your_email">Enter Your Email:</string>
-    <string name="submit">Submit</string>
+    <string name="submit1" tools:ignore="DuplicateDefinition">Submit</string>
     <string name="sign_up">Sign Up</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
-    <string name="email">Email</string>
+    <string name="email1" tools:ignore="DuplicateDefinition">Email</string>
     <string name="phone_number">Phone Number</string>
     <string name="address">Address</string>
     <string name="confirm_password">Confirm Password</string>
@@ -28,16 +28,46 @@
     <string name="checkbox">CheckBox</string>
     <string name="cancel">Cancel</string>
     <string name="checkout">CheckOut</string>
+
     <string name="reenterpass">New Password:</string>
     <string name="re_enter_new_password">Re-enter New Password:</string>
 
-    <string-array name="bankNames">
-        <item>-Select-</item>
-        <item>Sampath Bank</item>
-        <item>Seylan Bank</item>
-        <item>DFCC Bank</item>
-        <item>HNB Bank</item>
-        <item>NSB Bank</item>
-        <item>Commercial Bank</item>
-    </string-array>
+    <string name="sausage_bun_nrs_30">Sausage Buns Rs.30</string>
+    <string name="complains">Complains</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="complain">Complain</string>
+    <string name="submit">Submit</string>
+    <string name="todo1" tools:ignore="DuplicateDefinition">todo</string>
+    <string name="spongy_cake_nrs_35">Spongy Cake Rs. 35</string>
+    <string name="jam_bun_nrs_40">Jam Bun Rs. 40</string>
+    <string name="_2_kiribath_pieces_n_with_lunumiris_nrs_30">Kiribath Pieces with Lunumiris Rs. 30</string>
+    <string name="favourtite">favourtite</string>
+    <string name="contact_Us">Contact Us</string>
+    <string name="bakery">Bakery</string>
+    <string name="delivery_person">Delivery Person</string>
+    <string name="sasirikabakery_gmail_com">sasirikabakery_gmail_com</string>
+    <string name="todo2">todo</string>
+    <string name="todo3">todo</string>
+    <string name="todo4">todo</string>
+    <string name="_545452532">545452532</string>
+    <string name="todo25" tools:ignore="DuplicateDefinition">todo</string>
+    <string name="_94724844307">94724844307</string>
+    <string name="about_help">about_help</string>
+    <string name="About">about/help</string>
+
+    <string name="title_activity_map">Map_Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
