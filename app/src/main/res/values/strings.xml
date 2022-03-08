@@ -54,7 +54,7 @@
     <string name="todo25" tools:ignore="DuplicateDefinition">todo</string>
     <string name="_94724844307">94724844307</string>
     <string name="about_help">about_help</string>
-    <string name="About">about/help</string>
+    <string name="About">About/Help</string>
 
     <string name="title_activity_map">Map_Activity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
