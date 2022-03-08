@@ -9,16 +9,12 @@ import com.example.choonpaan.database.repository.UserRepo
 import kotlinx.android.synthetic.main.activity_login.*
 
 class ActivityLogin : AppCompatActivity() {
+    companion object{
+        lateinit var user:User
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-
-//        val backbutton1: Button = findViewById(R.id.cancelButton)
-//        val forgotButton: Button = findViewById(R.id.forgotPwButton)
-//        val signbtn: Button = findViewById(R.id.signInLpageButton)
-//        val login: Button = findViewById(R.id.loginPageButton)
-//        val emailInput:EditText=findViewById(R.id.userNameInputText)
-//        val pwInput:EditText=findViewById(R.id.TextPassword)
 
 
         cancelButton.setOnClickListener {
@@ -45,17 +41,21 @@ class ActivityLogin : AppCompatActivity() {
                 TextPassword.error = "Enter your password"
             } else {
                 val repo = UserRepo.getInstance(this)
-                val user: User? = repo.getUserByEmail(email)
+                val user_data = repo.getUserByEmail(email)
 
-                if (user == null) {
-                    Toast.makeText(this,"User not available",Toast.LENGTH_SHORT).show()
+                if (user_data != null){
+                    user=user_data
+                }
+
+                if (user_data == null) {
+                    Toast.makeText(this, "User not available", Toast.LENGTH_SHORT).show()
                 } else {
                     if (pw == user.password) {
                         val intent = Intent(this, MainActivity::class.java)
-                        Toast.makeText(this,"Sucessfully Logged in",Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Sucessfully Logged in", Toast.LENGTH_SHORT).show()
                         startActivity(intent)
                     } else {
-                        Toast.makeText(this,"Incorrect Password",Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Incorrect Password", Toast.LENGTH_SHORT).show()
                     }
 
                 }
