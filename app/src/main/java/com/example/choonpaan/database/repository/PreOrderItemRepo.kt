@@ -2,9 +2,8 @@ package com.example.choonpaan.database.repository
 
 import android.annotation.SuppressLint
 import android.content.Context
-import com.example.choonpaan.Database.AppDatabase
+import com.example.choonpaan.database.AppDatabase
 import com.example.choonpaan.database.entity.PreOrderItem
-import com.example.choonpaan.database.entity.User
 
 class PreOrderItemRepo(val context: Context) {
 

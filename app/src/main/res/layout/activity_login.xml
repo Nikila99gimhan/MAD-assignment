@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/untitled_2"
-    tools:context=".Activity_Login">
+    tools:context=".ActivityLogin">
 
     <Button
         android:id="@+id/helpButton1"
@@ -157,10 +157,10 @@
         android:background="@drawable/text_box"
         android:ems="20"
         android:hint="Enter Password..."
+        android:textColorHint="#808080"
         android:inputType="textPassword"
         android:paddingLeft="12dp"
         android:textColor="#512D18"
-        android:textColorHint="#F2D2BD"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/loginBox"
         app:layout_constraintEnd_toEndOf="parent"
@@ -175,11 +175,11 @@
         android:background="@drawable/text_box"
         android:ems="20"
         android:hint="@string/david_perera_gmail_com"
+        android:textColorHint="#808080"
         android:inputType="textPersonName"
         android:paddingStart="12dp"
         android:paddingLeft="12dp"
         android:textColor="#512D18"
-        android:textColorHint="#F2D2BD"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.838"

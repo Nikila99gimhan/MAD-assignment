@@ -16,7 +16,7 @@
     <string name="email1" tools:ignore="DuplicateDefinition">Email</string>
     <string name="phone_number">Phone Number</string>
     <string name="address">Address</string>
-    <string name="confirm_password">Repeat Password</string>
+    <string name="confirm_password">Confirm Password</string>
     <string name="accept_all_terms_and_conditions">Accept All Terms and Conditions</string>
     <string name="david">David</string>
     <string name="perera">Perera</string>
@@ -28,17 +28,21 @@
     <string name="checkbox">CheckBox</string>
     <string name="cancel">Cancel</string>
     <string name="checkout">CheckOut</string>
-    <string name="sausage_bun_nrs_30">Sausage Buns Rs.30</string>
+
+    <string name="reenterpass">New Password:</string>
+    <string name="re_enter_new_password">Re-enter New Password:</string>
+
+    <string name="sausage_bun_nrs_30">Sausage Buns</string>
     <string name="complains">Complains</string>
     <string name="name">Name</string>
     <string name="email">Email</string>
     <string name="complain">Complain</string>
     <string name="submit">Submit</string>
     <string name="todo1" tools:ignore="DuplicateDefinition">todo</string>
-    <string name="spongy_cake_nrs_35">Spongy Cake Rs. 35</string>
-    <string name="jam_bun_nrs_40">Jam Bun Rs. 40</string>
-    <string name="_2_kiribath_pieces_n_with_lunumiris_nrs_30">Kiribath Pieces with Lunumiris Rs. 30</string>
-    <string name="favourtite">favourtite</string>
+    <string name="spongy_cake_nrs_35">Spongy Cake</string>
+    <string name="jam_bun_nrs_40">Jam Bun </string>
+    <string name="_2_kiribath_pieces_n_with_lunumiris_nrs_30">2 Kiribath Pieces with Lunumiris</string>
+    <string name="favourtite">Favourite</string>
     <string name="contact_Us">Contact Us</string>
     <string name="bakery">Bakery</string>
     <string name="delivery_person">Delivery Person</string>
@@ -52,15 +56,6 @@
     <string name="about_help">about_help</string>
     <string name="About">about/help</string>
 
-    <string-array name="bankNames">
-        <item>-Select-</item>
-        <item>Sampath Bank</item>
-        <item>Seylan Bank</item>
-        <item>DFCC Bank</item>
-        <item>HNB Bank</item>
-        <item>NSB Bank</item>
-        <item>Commercial Bank</item>
-    </string-array>
     <string name="title_activity_map">Map_Activity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

@@ -1,11 +1,9 @@
-package com.example.choonpaan.Database.repository
+package com.example.choonpaan.database.repository
 
 import android.annotation.SuppressLint
 import android.content.Context
-import com.example.choonpaan.Database.AppDatabase
+import com.example.choonpaan.database.AppDatabase
 import com.example.choonpaan.database.entity.OrderDetail
-
-import java.sql.Timestamp
 
 class OrderDetailRepo(val context: Context) {
 

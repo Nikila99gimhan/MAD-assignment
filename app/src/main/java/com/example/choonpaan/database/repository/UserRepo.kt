@@ -1,8 +1,8 @@
-package com.onepos.posandroidv2.database.repository
+package com.example.choonpaan.database.repository
 
 import android.annotation.SuppressLint
 import android.content.Context
-import com.example.choonpaan.Database.AppDatabase
+import com.example.choonpaan.database.AppDatabase
 import com.example.choonpaan.database.entity.User
 
 class UserRepo(val context: Context) {
@@ -30,4 +30,8 @@ class UserRepo(val context: Context) {
     fun update(user: User) = userDao.update(user)
 
     fun delete(user: User) = userDao.delete(user)
+
+    fun getUserByEmail(email:String)=userDao.getUserByEmail(email)
+
+    fun getPassword(password:String)=userDao.getPassword(password)
 }
