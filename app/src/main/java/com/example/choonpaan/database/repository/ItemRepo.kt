@@ -1,10 +1,9 @@
-package com.onepos.posandroidv2.Database.repository
+package com.example.choonpaan.database.repository
 
 import android.annotation.SuppressLint
 import android.content.Context
-import com.example.choonpaan.Database.AppDatabase
-import com.example.choonpaan.Database.entity.Item
-import com.example.choonpaan.database.entity.User
+import com.example.choonpaan.database.AppDatabase
+import com.example.choonpaan.database.entity.Item
 
 class ItemRepo(val context: Context) {
 

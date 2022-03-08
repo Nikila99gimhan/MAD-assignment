@@ -16,7 +16,7 @@
     <string name="email">Email</string>
     <string name="phone_number">Phone Number</string>
     <string name="address">Address</string>
-    <string name="confirm_password">Repeat Password</string>
+    <string name="confirm_password">Confirm Password</string>
     <string name="accept_all_terms_and_conditions">Accept All Terms and Conditions</string>
     <string name="david">David</string>
     <string name="perera">Perera</string>
@@ -28,6 +28,8 @@
     <string name="checkbox">CheckBox</string>
     <string name="cancel">Cancel</string>
     <string name="checkout">CheckOut</string>
+    <string name="reenterpass">New Password:</string>
+    <string name="re_enter_new_password">Re-enter New Password:</string>
 
     <string-array name="bankNames">
         <item>-Select-</item>

@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val signupbtn:Button=findViewById(R.id.signUpButton)
 
         loginbtn.setOnClickListener {
-            val intent= Intent(this,Activity_Login::class.java)
+            val intent= Intent(this,ActivityLogin::class.java)
             startActivity(intent)
             showNotification()
         }
@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+
     private fun showNotification(){
         val channelID="1000"
         val notificationManager=getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
@@ -36,6 +38,7 @@ class MainActivity : AppCompatActivity() {
             .setSmallIcon(R.drawable.ic_baseline_notifications_24)
             .setContentTitle("Login")
             .setContentText("You are logged in to your account")
+            //.setTimeoutAfter(10000)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
             val channel = NotificationChannel(channelID,"Custom Notification", NotificationManager.IMPORTANCE_DEFAULT)

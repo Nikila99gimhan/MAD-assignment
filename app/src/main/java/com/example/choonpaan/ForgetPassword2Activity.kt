@@ -5,22 +5,23 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class ForgetPassword : AppCompatActivity() {
+class ForgetPassword2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_forget_password)
+        setContentView(R.layout.activity_forget_password2)
 
-        val backbutton: Button = findViewById<Button>(R.id.backButton2)
-        val submit:Button=findViewById(R.id.submitButton)
+        val submitBtn:Button=findViewById(R.id.submitBtn02)
+        val back:Button=findViewById(R.id.backButton2)
 
-        backbutton.setOnClickListener {
+        submitBtn.setOnClickListener {
             val intent = Intent(this, ActivityLogin::class.java)
             startActivity(intent)
         }
 
-        submit.setOnClickListener {
-            val intent = Intent(this, ForgetPassword2Activity::class.java)
+        back.setOnClickListener {
+            val intent = Intent(this, ForgetPassword::class.java)
             startActivity(intent)
         }
     }
+
 }
