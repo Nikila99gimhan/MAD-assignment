@@ -12,16 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChoonPaan">
         <activity
-<<<<<<< HEAD
+
             android:name=".ForgetPassword2Activity"
             android:exported="false" />
         <activity
-=======
-<<<<<<< HEAD
-            android:name=".Order_Now_Activity"
+
+            android:name=".OrderNowActivity"
             android:exported="false" />
         <activity
-            android:name=".activity_choonPaan"
+            android:name=".ActivityChoonPaan"
             android:exported="false" />
 
         <meta-data
@@ -33,28 +32,28 @@
             android:exported="false"
             android:label="@string/title_activity_map"
             android:theme="@style/Theme.ChoonPaan.NoActionBar" />
-=======
+
             android:name=".activity_help"
             android:exported="false" />
         <activity
-            android:name=".activity_contact_us"
+            android:name=".ActivityContactUs"
             android:exported="false" />
         <activity
-            android:name=".activity_favourites"
+            android:name=".ActivityFavourites"
             android:exported="false" />
         <activity
-            android:name=".activity_complains"
+            android:name=".ActivityComplains"
             android:exported="false" />
->>>>>>> c37ddc495673d819df34b24b7a71cd8a3d742d89
+
         <activity
->>>>>>> 0746d43630556172a9d819ff8e82392a26d6caf7
+
             android:name=".OrderPlaced"
             android:exported="false" />
         <activity
             android:name=".ViewCart"
             android:exported="false" />
         <activity
-            android:name=".Payment_Form"
+            android:name=".PaymentForm"
             android:exported="false" />
         <activity
             android:name=".RegistrationActivity"

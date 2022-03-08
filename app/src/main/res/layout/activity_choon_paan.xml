@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/untitled_2"
-    tools:context=".activity_choonPaan">
+    tools:context=".ActivityChoonPaan">
     <Button
         android:id="@+id/backbuttoncpi"
         android:layout_width="80dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/payBtn"
         android:layout_width="59dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
@@ -36,7 +36,7 @@
         android:layout_marginBottom="581dp"
         android:background="@drawable/dark_background"
         android:fontFamily="serif"
-        android:text="Chun Paan Items"
+        android:text="@string/chun_paan_items"
         android:textColor="#FDF3E9"
         android:textSize="46sp"
         android:textStyle="bold"
@@ -70,7 +70,8 @@
         app:layout_constraintEnd_toEndOf="@+id/cartView01"
         app:layout_constraintStart_toStartOf="@+id/cartView01"
         app:layout_constraintTop_toTopOf="@+id/cartView01"
-        app:srcCompat="@drawable/_613640689" />
+        app:srcCompat="@drawable/_613640689"
+        tools:ignore="ContentDescription" />
 
     <ListView
         android:id="@+id/cartView02"
@@ -145,7 +146,8 @@
         app:layout_constraintEnd_toEndOf="@+id/cartView02"
         app:layout_constraintStart_toStartOf="@+id/cartView02"
         app:layout_constraintTop_toBottomOf="@+id/cartView01"
-        app:srcCompat="@drawable/fullsizerender_26" />
+        app:srcCompat="@drawable/fullsizerender_26"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -156,7 +158,8 @@
         app:layout_constraintEnd_toEndOf="@+id/main_view03"
         app:layout_constraintStart_toStartOf="@+id/main_view03"
         app:layout_constraintTop_toTopOf="@+id/main_view03"
-        app:srcCompat="@drawable/homemade_white_bread_loaf_feature" />
+        app:srcCompat="@drawable/homemade_white_bread_loaf_feature"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView20"
@@ -166,7 +169,7 @@
         android:layout_marginBottom="10dp"
         android:ems="10"
         android:fontFamily="serif"
-        android:text="Tea Bun"
+        android:text="@string/tea_bun"
         android:textColor="#794500"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -183,7 +186,7 @@
         android:layout_marginStart="120dp"
         android:ems="10"
         android:fontFamily="serif"
-        android:text="Rs.35"
+        android:text="@string/rs_35"
         android:textColor="#794500"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -219,7 +222,7 @@
         android:layout_marginStart="5dp"
         android:ems="10"
         android:fontFamily="serif"
-        android:text="Rs.35"
+        android:text="@string/rs_35"
         android:textColor="#794500"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -238,7 +241,7 @@
         android:layout_marginBottom="10dp"
         android:ems="10"
         android:fontFamily="serif"
-        android:text="Bread"
+        android:text="@string/bread"
         android:textColor="#794500"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -256,7 +259,7 @@
         android:layout_marginBottom="10dp"
         android:ems="10"
         android:fontFamily="serif"
-        android:text="Rs.80"
+        android:text="@string/rs_80"
         android:textColor="#794500"
         android:textSize="20sp"
         android:textStyle="bold"

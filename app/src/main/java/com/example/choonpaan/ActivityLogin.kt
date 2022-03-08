@@ -2,12 +2,10 @@ package com.example.choonpaan
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.choonpaan.database.entity.User
 import com.example.choonpaan.database.repository.UserRepo
-
 import kotlinx.android.synthetic.main.activity_login.*
 
 class ActivityLogin : AppCompatActivity() {
@@ -47,12 +45,12 @@ class ActivityLogin : AppCompatActivity() {
                 TextPassword.error = "Enter your password"
             } else {
                 val repo = UserRepo.getInstance(this)
-                var user: User? = repo.getUserByEmail(email)
+                val user: User? = repo.getUserByEmail(email)
 
                 if (user == null) {
                     Toast.makeText(this,"User not available",Toast.LENGTH_SHORT).show()
                 } else {
-                    if (pw.equals(user.password)) {
+                    if (pw == user.password) {
                         val intent = Intent(this, MainActivity::class.java)
                         Toast.makeText(this,"Sucessfully Logged in",Toast.LENGTH_SHORT).show()
                         startActivity(intent)

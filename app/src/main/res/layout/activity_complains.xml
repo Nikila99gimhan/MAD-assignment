@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/untitled_2"
-    tools:context=".activity_complains">
+    tools:context=".ActivityComplains">
 
     <TextView
         android:id="@+id/Complains"
@@ -27,29 +27,12 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/Favbutton"
+        android:id="@+id/FavbuttonNav"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/ic_baseline_calendar_view_day_24"
         app:layout_constraintBottom_toTopOf="@+id/Complains"
-        app:layout_constraintEnd_toStartOf="@+id/backButton"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/backButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="344dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/ic_baseline_back_arrow_24"
-        android:scaleX="-1"
-        app:layout_constraintBottom_toTopOf="@+id/Complains"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -68,7 +51,7 @@
         app:layout_constraintVertical_bias="0.269" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/bankNameInput"
         android:layout_width="229dp"
         android:layout_height="42dp"
         android:background="@drawable/text_box"
@@ -162,7 +145,7 @@
         app:layout_constraintVertical_bias="0.84" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/submitButtonComplain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/light_backgroud"

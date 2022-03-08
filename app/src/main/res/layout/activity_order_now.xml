@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/untitled_2"
-    tools:context=".Order_Now_Activity">
+    tools:context=".OrderNowActivity">
 
     <TextView
         android:id="@+id/textView2"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/submitButtonComplain"
         android:layout_width="80dp"
         android:layout_height="69dp"
         android:layout_marginTop="16dp"
@@ -53,7 +53,8 @@
         android:layout_height="120dp"
         android:background="@drawable/light_backgroud"
         tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="198dp" />
+        tools:layout_editor_absoluteY="198dp"
+        tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/checkBox5"
@@ -121,7 +122,7 @@
         app:useMaterialThemeColors="false" />
 
     <CheckBox
-        android:id="@+id/cartButn01"
+        android:id="@+id/cartButn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:button="@drawable/ic_baseline_shopping_cart_24"
@@ -134,7 +135,7 @@
         app:useMaterialThemeColors="false" />
 
     <CheckBox
-        android:id="@+id/cartButn02"
+        android:id="@+id/cartButn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:button="@drawable/ic_baseline_shopping_cart_24"
@@ -147,7 +148,7 @@
         app:useMaterialThemeColors="false" />
 
     <CheckBox
-        android:id="@+id/cartButn03"
+        android:id="@+id/cartButn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:button="@drawable/ic_baseline_shopping_cart_24"
