@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ViewCart">
+
     <Button
         android:id="@+id/notButton2"
         android:layout_width="45dp"
@@ -14,7 +15,7 @@
         android:background="@drawable/ic_baseline_calendar_view_day_24"
         app:layout_constraintBottom_toTopOf="@+id/ViewCartTopic"
         app:layout_constraintEnd_toStartOf="@+id/backButton3"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -30,7 +31,7 @@
         android:scaleX="-1"
         app:layout_constraintBottom_toTopOf="@+id/ViewCartTopic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -119,10 +120,10 @@
         app:cornerRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toEndOf="@+id/cancelButton"
         app:layout_constraintTop_toBottomOf="@+id/cartView03"
-        app:layout_constraintVertical_bias="0.944"
+        app:layout_constraintVertical_bias="1.0"
         app:rippleColor="#512D18" />
 
     <CheckBox

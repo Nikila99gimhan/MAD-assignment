@@ -10,7 +10,7 @@ class ForgetPassword : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forget_password)
 
-        val backbutton: Button = findViewById<Button>(R.id.backButton2)
+        val backbutton: Button = findViewById(R.id.backButton2)
         val submit:Button=findViewById(R.id.submitButton)
 
         backbutton.setOnClickListener {

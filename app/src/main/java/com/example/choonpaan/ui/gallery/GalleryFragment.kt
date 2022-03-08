@@ -1,6 +1,6 @@
 package com.example.choonpaan.ui.gallery
 
-import android.os.Bundle
+/*import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,8 +13,8 @@ class GalleryFragment : Fragment() {
 
     private var _binding: FragmentGalleryBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
+     This property is only valid between onCreateView and
+     onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -39,4 +39,4 @@ class GalleryFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
-}
+}*/

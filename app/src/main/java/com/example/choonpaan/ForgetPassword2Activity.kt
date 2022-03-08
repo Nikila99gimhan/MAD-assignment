@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 
 class ForgetPassword2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +17,7 @@ class ForgetPassword2Activity : AppCompatActivity() {
         submitBtn.setOnClickListener {
             val intent = Intent(this, ActivityLogin::class.java)
             startActivity(intent)
+            Toast.makeText(this,"Password Updated!!!", Toast.LENGTH_SHORT).show()
         }
 
         back.setOnClickListener {

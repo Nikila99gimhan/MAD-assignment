@@ -162,6 +162,7 @@
         android:id="@+id/conditionCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:buttonTint="#512D18"
         android:text="@string/accept_all_terms_and_conditions"
         android:textColor="#512D18"
         android:textSize="16sp"
@@ -346,7 +347,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/cancelBtn"
+        android:id="@+id/cancelBtnPay"
         android:layout_width="140dp"
         android:layout_height="58dp"
         android:backgroundTint="#FDF3E9"

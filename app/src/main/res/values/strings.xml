@@ -13,7 +13,6 @@
     <string name="sign_up">Sign Up</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
-    <string name="email1" tools:ignore="DuplicateDefinition">Email</string>
     <string name="phone_number">Phone Number</string>
     <string name="address">Address</string>
     <string name="confirm_password">Confirm Password</string>
@@ -54,7 +53,7 @@
     <string name="todo25" tools:ignore="DuplicateDefinition">todo</string>
     <string name="_94724844307">94724844307</string>
     <string name="about_help">about_help</string>
-    <string name="About">about/help</string>
+    <string name="About">About/Help</string>
 
     <string name="title_activity_map">Map_Activity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -70,4 +69,27 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="chun_paan_items">Chun Paan Items</string>
+    <string name="tea_bun">Tea Bun</string>
+    <string name="rs_35">Rs.35</string>
+    <string name="bread">Bread</string>
+    <string name="rs_80">Rs.80</string>
+    <string name="payment">Payment</string>
+    <string name="bank_name">Bank Name:</string>
+    <string name="sampath_bank">Sampath Bank</string>
+    <string name="master">Master</string>
+    <string name="visa">Visa</string>
+    <string name="card_number">Card Number:</string>
+    <string name="carsno">**** **** **** ****</string>
+    <string name="namecu">Name:</string>
+    <string name="david_perera">David Perera</string>
+    <string name="expiry_date">Expiry Date:</string>
+    <string name="_04_24">04/24</string>
+    <string name="cvv">CVV:</string>
+    <string name="pin">***</string>
+    <string name="pay">Pay</string>
+    <string name="select_the_type">Select the type:</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cash">Cash</string>
+    <string name="card">Card</string>
 </resources>

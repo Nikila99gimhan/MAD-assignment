@@ -5,16 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_favourites.*
 
-class activity_favourites : AppCompatActivity() {
+class ActivityHelp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_favourites)
+        setContentView(R.layout.activity_help)
 
-        Favbutton.setOnClickListener {
-            val intent = Intent(this, Payment::class.java)
-            startActivity(intent)
-        }
-        backButton.setOnClickListener {
+        backButtonHelp.setOnClickListener {
             val intent = Intent(this, Payment::class.java)
             startActivity(intent)
         }

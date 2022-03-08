@@ -15,7 +15,7 @@
         android:background="@drawable/ic_baseline_back_arrow_24"
         android:scaleX="-1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/submitButtonComplain"
         app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,7 +23,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/submitButtonComplain"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
@@ -42,7 +42,7 @@
         android:layout_height="159dp"
         android:background="@drawable/dark_background"
         android:fontFamily="serif"
-        android:text="Payment Method"
+        android:text="@string/payment_method"
         android:textAlignment="center"
         android:textColor="#FDF3E9"
         android:textSize="65sp"
@@ -67,46 +67,59 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.215" />
 
-    <RadioButton
-        android:id="@+id/radioButton1"
-        android:layout_width="wrap_content"
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="204dp"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed-light"
-        android:text="Cash"
-        android:textColor="#512D18"
-        android:textSize="60sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/radioButton2"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="140dp"
-        android:fontFamily="sans-serif-condensed-light"
-        android:text="Card"
-        android:textColor="#512D18"
-        android:textSize="60sp"
-        android:textStyle="bold"
+        android:checkedButton="@id/radioButton1"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.716" />
+        app:layout_constraintTop_toTopOf="@+id/textView2">
 
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="#512D18"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/cash"
+            android:textColor="#512D18"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/radioButton2"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/textView2"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="140dp"
+            android:buttonTint="#512D18"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/card"
+            android:textColor="#512D18"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.716" />
+
+    </RadioGroup>
     <Button
         android:id="@+id/button5"
         android:layout_width="130dp"
         android:layout_height="58dp"
         android:backgroundTint="#FDF3E9"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Cancel"
+        android:text="@string/cancel"
         android:textColor="#512D18"
         android:textSize="20sp"
         android:visibility="visible"
@@ -136,5 +149,6 @@
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.427"
-        app:rippleColor="#512D18" />
+        app:rippleColor="#512D18"
+        tools:ignore="HardcodedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
