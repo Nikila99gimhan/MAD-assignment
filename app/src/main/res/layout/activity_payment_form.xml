@@ -278,7 +278,7 @@
         tools:ignore="MissingConstraints,RtlSymmetry" />
 
     <Button
-        android:id="@+id/payBtn"
+        android:id="@+id/navNewArrivals"
         android:layout_width="140dp"
         android:layout_height="58dp"
         android:backgroundTint="#FDF3E9"
@@ -312,7 +312,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.577"
-        app:layout_constraintStart_toEndOf="@+id/payBtn"
+        app:layout_constraintStart_toEndOf="@+id/navNewArrivals"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.421"
         app:rippleColor="#512D18"

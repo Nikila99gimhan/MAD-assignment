@@ -31,7 +31,7 @@ class ActivityLogin : AppCompatActivity() {
             val intent = Intent(this, RegistrationActivity::class.java)
             startActivity(intent)
         }
-        loginPageButton.setOnClickListener {
+        preOrderPageButton.setOnClickListener {
             val email = userNameInputText.text.toString()
             val pw = TextPassword.text.toString()
 

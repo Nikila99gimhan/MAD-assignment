@@ -8,7 +8,7 @@
     tools:context=".activity_ebill">
 
     <Button
-        android:id="@+id/backbuttoncpi"
+        android:id="@+id/backbuttonNA"
         android:layout_width="80dp"
         android:layout_height="69dp"
         android:layout_marginTop="16dp"
@@ -21,7 +21,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/payBtn"
+        android:id="@+id/navNewArrivals"
         android:layout_width="59dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
@@ -64,7 +64,7 @@
         app:srcCompat="@drawable/bill" />
 
     <Button
-        android:id="@+id/loginPageButton"
+        android:id="@+id/preOrderPageButton"
         android:layout_width="224dp"
         android:layout_height="64dp"
         android:layout_marginBottom="16dp"

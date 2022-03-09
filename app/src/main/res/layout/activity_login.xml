@@ -60,7 +60,7 @@
         app:layout_constraintStart_toStartOf="@+id/loginBox" />
 
     <Button
-        android:id="@+id/loginPageButton"
+        android:id="@+id/preOrderPageButton"
         android:layout_width="130dp"
         android:layout_height="58dp"
         android:layout_marginTop="32dp"
@@ -95,7 +95,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.279"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginPageButton"
+        app:layout_constraintTop_toBottomOf="@+id/preOrderPageButton"
         app:layout_constraintVertical_bias="0.222" />
 
     <Button
@@ -110,7 +110,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.743"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginPageButton"
+        app:layout_constraintTop_toBottomOf="@+id/preOrderPageButton"
         app:layout_constraintVertical_bias="0.259" />
 
     <Button
@@ -202,7 +202,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toEndOf="@+id/loginPageButton"
+        app:layout_constraintStart_toEndOf="@+id/preOrderPageButton"
         app:layout_constraintTop_toBottomOf="@+id/loginBox"
         app:layout_constraintVertical_bias="0.139"
         app:rippleColor="#512D18" />

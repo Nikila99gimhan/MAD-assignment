@@ -7,7 +7,7 @@
     android:background="@drawable/untitled_2"
     tools:context=".ActivityChoonPaan">
     <Button
-        android:id="@+id/backbuttoncpi"
+        android:id="@+id/backbuttonNA"
         android:layout_width="80dp"
         android:layout_height="69dp"
         android:layout_marginTop="16dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/payBtn"
+        android:id="@+id/navNewArrivals"
         android:layout_width="59dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"

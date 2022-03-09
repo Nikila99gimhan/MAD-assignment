@@ -19,7 +19,7 @@ class PaymentForm : AppCompatActivity() {
             val intent= Intent(this,Payment::class.java)
             startActivity(intent)
         }
-        payBtn.setOnClickListener {
+        navNewArrivals.setOnClickListener {
             val bname=bankNameInput.text.toString()
             val cnumber=cardNumberInput.text.toString()
             val cname=customerNameInput.text.toString()

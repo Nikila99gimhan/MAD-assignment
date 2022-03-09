@@ -23,7 +23,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
         ebillButton.setOnClickListener {
-            val intent = Intent(this, ActivityChoonPaan::class.java)
+            val intent = Intent(this, activity_ebill::class.java)
             startActivity(intent)
         }
         viewcartButton.setOnClickListener {
@@ -31,7 +31,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
         newarrivalButton.setOnClickListener {
-            val intent = Intent(this, ViewCart::class.java)
+            val intent = Intent(this, activity_new_arrivals::class.java)
             startActivity(intent)
         }
         contactButton.setOnClickListener {

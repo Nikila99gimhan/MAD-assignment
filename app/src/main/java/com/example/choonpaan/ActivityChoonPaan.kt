@@ -11,7 +11,7 @@ class ActivityChoonPaan : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_choon_paan)
 
-        backbuttoncpi.setOnClickListener {
+        backbuttonNA.setOnClickListener {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
