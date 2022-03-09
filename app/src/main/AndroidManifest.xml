@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChoonPaan">
         <activity
-
+            android:name=".activity_edit_profile"
+            android:exported="false" />
+        <activity
             android:name=".activity_cart"
             android:exported="false" />
         <activity
@@ -21,7 +23,6 @@
         <activity
             android:name=".activity_new_arrivals"
             android:exported="false" />
-
         <activity
             android:name=".ForgetPassword2Activity"
             android:exported="false" />
