@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/untitled_2"
+    tools:context=".help_and_support">
+
+    <Button
+        android:id="@+id/FavbuttonNav"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/ic_baseline_calendar_view_day_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/backButtonHelp"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/backButtonHelp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="344dp"
+        android:background="@drawable/ic_baseline_back_arrow_24"
+        android:scaleX="-1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/dark_background"
+        android:fontFamily="serif"
+        android:text="@string/help_and_support"
+        android:textColor="#FDF3E9"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <TextView
+        android:id="@+id/helpview"
+        android:layout_width="417dp"
+        android:layout_height="505dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/light_backgroud"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/help" />
+
+
+    <Button
+        android:id="@+id/appIssues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="@string/App_Issues"
+        android:textColor="#512D18"
+        android:textColorHighlight="#512D18"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/helpview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/helpview"
+        app:layout_constraintTop_toTopOf="@+id/helpview"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/Account_and_payment_options"
+        android:layout_width="373dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="@string/account_and_payment_options"
+        android:textColor="#512D18"
+        android:textColorHighlight="#512D18"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/helpview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appIssues"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/Using_choon_pan"
+        android:layout_width="373dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="@string/help_with_an_order"
+        android:textColor="#512D18"
+        android:textColorHighlight="#512D18"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/helpview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appIssues"
+        app:layout_constraintVertical_bias="0.338" />
+
+
+    <Button
+        android:id="@+id/delivery_and_pickup_basics"
+        android:layout_width="373dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="@string/delivery_and_pickup_basics"
+        android:textColor="#512D18"
+        android:textColorHighlight="#512D18"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/helpview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appIssues"
+        app:layout_constraintVertical_bias="0.63" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

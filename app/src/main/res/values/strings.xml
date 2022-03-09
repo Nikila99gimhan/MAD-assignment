@@ -92,4 +92,10 @@
     <string name="payment_method">Payment Method</string>
     <string name="cash">Cash</string>
     <string name="card">Card</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="App_Issues"><u>App Issues</u>u></string>
+    <string name="account_and_payment_options"><u>Account and payment options</u></string>
+    <string name="help_with_an_order"><u>Help with an order</u></string>
+    <string name="delivery_and_pickup_basics"><u>Delivery and pickup basics</u></string>
+    <string name="title_activity_menue">menue</string>
 </resources>

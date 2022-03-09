@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_Favorites">
+    <activity
+        android:id="@+id/nav_Favorites"
+        android:name="com.example.choonpaan.ActivityFavourites"
+        android:label="Favourites"
+        tools:layout="@layout/activity_favourites" />
+    <activity
+        android:id="@+id/nav_help"
+        android:name="com.example.choonpaan.help_and_support"
+        android:label="Help and Support"
+        tools:layout="@layout/activity_help_and_support" />
+</navigation>
