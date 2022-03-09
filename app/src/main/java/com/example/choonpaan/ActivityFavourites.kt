@@ -11,7 +11,7 @@ class ActivityFavourites : AppCompatActivity() {
         setContentView(R.layout.activity_favourites)
 
         backButtonHelp.setOnClickListener {
-            val intent = Intent(this, Payment::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
         FavbuttonNav.setOnClickListener {

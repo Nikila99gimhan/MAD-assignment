@@ -12,7 +12,7 @@ class ActivityChoonPaan : AppCompatActivity() {
         setContentView(R.layout.activity_choon_paan)
 
         backbuttoncpi.setOnClickListener {
-            val intent = Intent(this, ActivityLogin::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
 

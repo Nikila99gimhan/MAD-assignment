@@ -51,7 +51,7 @@ class ActivityLogin : AppCompatActivity() {
                     Toast.makeText(this, "User not available", Toast.LENGTH_SHORT).show()
                 } else {
                     if (pw == user.password) {
-                        val intent = Intent(this, MainActivity::class.java)
+                        val intent = Intent(this, HomeActivity::class.java)
                         Toast.makeText(this, "Sucessfully Logged in", Toast.LENGTH_SHORT).show()
                         startActivity(intent)
                     } else {

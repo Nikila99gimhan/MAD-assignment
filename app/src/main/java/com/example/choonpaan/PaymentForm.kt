@@ -51,7 +51,7 @@ class PaymentForm : AppCompatActivity() {
         }
 
         cancelBtnPay.setOnClickListener {
-            val intent = Intent(this, ActivityLogin::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
 
