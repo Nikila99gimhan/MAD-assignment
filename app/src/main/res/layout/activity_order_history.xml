@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/untitled_2"
+    tools:context=".OrderHistoryActivity">
+
+    <Button
+        android:id="@+id/navOrderBtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_baseline_calendar_view_day_24"
+        app:layout_constraintBottom_toTopOf="@+id/orderHistoryView"
+        app:layout_constraintEnd_toStartOf="@+id/orderBackBtn"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/orderBackBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_baseline_back_arrow_24"
+        android:scaleX="-1"
+        app:layout_constraintBottom_toTopOf="@+id/orderHistoryView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/orderHistoryView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dark_background"
+        android:fontFamily="serif"
+        android:text="@string/order_history"
+        android:textColor="#FDF3E9"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <TextView
+        android:id="@+id/orderHistoryView01"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:background="@drawable/light_backgroud"
+        app:layout_constraintBottom_toTopOf="@+id/orderHistoryView02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderHistoryView" />
+
+    <TextView
+        android:id="@+id/orderHistoryView02"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:background="@drawable/light_backgroud"
+        app:layout_constraintBottom_toTopOf="@+id/orderHistoryView03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderHistoryView01" />
+
+    <TextView
+        android:id="@+id/orderHistoryView03"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:background="@drawable/light_backgroud"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderHistoryView02" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/orderHistoryView01"
+        app:layout_constraintEnd_toEndOf="@+id/orderHistoryView01"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="@+id/orderHistoryView01"
+        app:layout_constraintTop_toTopOf="@+id/orderHistoryView01"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/oip__1_"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="102dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:text="@string/jam_bun"
+        android:textColor="#794500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/orderHistoryView01"
+        app:layout_constraintEnd_toEndOf="@+id/orderHistoryView01"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/orderHistoryView01"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="102dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:text="@string/rs_40"
+        android:textColor="#794500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/orderHistoryView01"
+        app:layout_constraintEnd_toEndOf="@+id/orderHistoryView01"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/orderHistoryView01"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/orderHistoryView02"
+        app:layout_constraintEnd_toEndOf="@+id/orderHistoryView02"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="@+id/orderHistoryView02"
+        app:layout_constraintTop_toTopOf="@+id/orderHistoryView02"
+        app:layout_constraintVertical_bias="0.65"
+        app:srcCompat="@drawable/homemade_white_bread_loaf_feature"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="102dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:text="@string/bread"
+        android:textColor="#794500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/orderHistoryView02"
+        app:layout_constraintEnd_toEndOf="@+id/orderHistoryView02"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/orderHistoryView02"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="102dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:text="@string/rs_80"
+        android:textColor="#794500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/orderHistoryView02"
+        app:layout_constraintEnd_toEndOf="@+id/orderHistoryView02"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="186dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:text="2 Pittu Pieces with Lunumiris"
+        android:textColor="#794500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/orderHistoryView03"
+        app:layout_constraintEnd_toEndOf="@+id/orderHistoryView03"
+        app:layout_constraintTop_toTopOf="@+id/orderHistoryView03"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/orderHistoryView03"
+        app:layout_constraintEnd_toStartOf="@+id/textView35"
+        app:layout_constraintStart_toStartOf="@+id/orderHistoryView03"
+        app:layout_constraintTop_toTopOf="@+id/orderHistoryView03"
+        app:srcCompat="@drawable/c5f1e1077112511ece0bbc1d760398b4" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="102dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:text="Rs.50"
+        android:textColor="#794500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/orderHistoryView03"
+        app:layout_constraintEnd_toEndOf="@+id/orderHistoryView03"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -109,8 +109,6 @@
         android:id="@+id/checkoutButton"
         android:layout_width="145dp"
         android:layout_height="58dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="44dp"
         android:backgroundTint="#FDF3E9"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/checkout"
@@ -120,10 +118,10 @@
         app:cornerRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintStart_toEndOf="@+id/cancelButton"
         app:layout_constraintTop_toBottomOf="@+id/cartView03"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.434"
         app:rippleColor="#512D18" />
 
     <CheckBox

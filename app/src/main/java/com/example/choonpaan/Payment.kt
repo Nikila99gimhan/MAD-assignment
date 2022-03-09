@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.payment.*
 class Payment : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.payment)
 
         val radioGroup: RadioGroup = findViewById(R.id.radioGroup)
 

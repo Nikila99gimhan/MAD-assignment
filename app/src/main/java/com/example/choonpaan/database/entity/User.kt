@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 
 data class User(
     @PrimaryKey (autoGenerate = true) var id: Int?,
-    var first_name:String,
+    var first_name: String?,
     var last_name:String,
     var pro_pic:String,
     var email:String,

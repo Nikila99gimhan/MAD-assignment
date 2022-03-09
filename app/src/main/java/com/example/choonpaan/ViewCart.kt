@@ -12,19 +12,19 @@ class ViewCart : AppCompatActivity() {
         setContentView(R.layout.activity_view_cart)
 
         cancelButton.setOnClickListener {
-            val intent= Intent(this,OrderNowActivity::class.java)
+            val intent = Intent(this, OrderNowActivity::class.java)
             startActivity(intent)
         }
         checkoutButton.setOnClickListener {
-            val intent= Intent(this,Payment::class.java)
+            val intent = Intent(this, Payment::class.java)
             startActivity(intent)
         }
         backButton3.setOnClickListener {
-            val intent= Intent(this,HomeActivity::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
 
-            if (cancelButn01.isChecked){
+        /*if (cancelButn01.isChecked){
                 showToast("Item added to favourite")
             }else{
                 showToast("Item removed to favourite")
@@ -47,5 +47,6 @@ class ViewCart : AppCompatActivity() {
 
     private fun showToast(str: String) {
         Toast.makeText(this,str,Toast.LENGTH_SHORT).show()
+    }*/
     }
 }

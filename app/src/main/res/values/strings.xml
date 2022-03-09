@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Choon Paan</string>
     <string name="forgot_password"><u>Forgot Password ?</u></string>
-    <string name="signup"><u>Sign In</u></string>
+    <string name="signin"><u>Sign In</u></string>
     <string name="username">UserName</string>
     <string name="password">Password</string>
     <string name="are_you_new">Are you new?</string>
@@ -92,4 +92,7 @@
     <string name="payment_method">Payment Method</string>
     <string name="cash">Cash</string>
     <string name="card">Card</string>
+    <string name="order_history">Order History</string>
+    <string name="jam_bun">Jam Bun</string>
+    <string name="rs_40">Rs.40</string>
 </resources>

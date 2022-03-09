@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import com.example.choonpaan.database.entity.User
 import com.example.choonpaan.database.repository.UserRepo
 import kotlinx.android.synthetic.main.activity_forget_password2.*
 
@@ -27,8 +28,11 @@ class ForgetPassword2Activity : AppCompatActivity() {
                 if (pass != repass) {
                     Toast.makeText(this, "Passwords doesn't match!!!", Toast.LENGTH_SHORT).show()
                 } else {
-                    //val repo = UserRepo.getInstance(this)
-                    //repo.update(newPassInput)
+                    val repo = UserRepo.getInstance(this)
+                        var user= User(
+                            null,"", "","","","","",pass,true,false
+                             )
+                    repo.update(user)
                     val intent = Intent(this, ActivityLogin::class.java)
                     startActivity(intent)
                     Toast.makeText(this, "Password Updated!!!", Toast.LENGTH_SHORT).show()
