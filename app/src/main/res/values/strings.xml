@@ -92,4 +92,10 @@
     <string name="payment_method">Payment Method</string>
     <string name="cash">Cash</string>
     <string name="card">Card</string>
+    <string name="rs_50">Rs.50</string>
+    <string name="Pittu">Pittu</string>
+    <string name="bill">E-bill</string>
+    <string name="e_bill">E-bill</string>
+    <string name="table">table</string>
+    <string name="pre_order_page">Pre-order page</string>
 </resources>

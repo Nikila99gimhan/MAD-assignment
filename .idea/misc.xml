@@ -6,6 +6,14 @@
         <entry key="..\:/Kotlin/groupProject/MAD-assignment/app/src/main/res/drawable/light_backgroud.xml" value="0.2595" />
         <entry key="..\:/Kotlin/groupProject/MAD-assignment/app/src/main/res/layout/activity_login.xml" value="0.2006340579710145" />
         <entry key="..\:/Kotlin/groupProject/MAD-assignment/app/src/main/res/layout/payment.xml" value="0.2006340579710145" />
+        <entry key="..\:/MAD-assignment/app/src/main/res/drawable/dark_background.xml" value="0.1715" />
+        <entry key="..\:/MAD-assignment/app/src/main/res/layout/activity_cart.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD-assignment/app/src/main/res/layout/activity_choon_paan.xml" value="0.17074275362318841" />
+        <entry key="..\:/MAD-assignment/app/src/main/res/layout/activity_complains.xml" value="0.17074275362318841" />
+        <entry key="..\:/MAD-assignment/app/src/main/res/layout/activity_ebill.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD-assignment/app/src/main/res/layout/activity_favourites.xml" value="0.17074275362318841" />
+        <entry key="..\:/MAD-assignment/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD-assignment/app/src/main/res/layout/activity_new_arrivals.xml" value="0.25" />
         <entry key="..\:/New folder/MAD-assignment/app/src/main/res/layout/newarrivals.xml" value="0.17074275362318841" />
         <entry key="..\:/New folder/MAD-assignment/app/src/main/res/layout/payment.xml" value="0.1287568306010929" />
         <entry key="..\:/Users/ASUS/Desktop/MAD/MAD-assignment/app/src/main/res/drawable/cancel_litem.xml" value="0.264" />
