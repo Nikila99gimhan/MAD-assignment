@@ -12,12 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChoonPaan">
         <activity
-<<<<<<< HEAD
+
             android:name=".OrderHistoryActivity"
             android:exported="false" />
         <activity
+
             android:name=".HomeActivity"
-=======
+            android:exported="false" />
+        <activity
+
             android:name=".activity_edit_profile"
             android:exported="false" />
         <activity
@@ -28,7 +31,7 @@
             android:exported="false" />
         <activity
             android:name=".activity_new_arrivals"
->>>>>>> 13cfce9fd16a0189bccc0f066c012b3f7ae085b4
+
             android:exported="false" />
         <activity
             android:name=".ForgetPassword2Activity"

@@ -25,7 +25,6 @@
     <string name="password2">Enter Password</string>
     <string name="re_enter_password">Re-Enter Password</string>
     <string name="checkbox">CheckBox</string>
-    <string name="cancel">Cancel</string>
     <string name="checkout">CheckOut</string>
 
     <string name="reenterpass">New Password:</string>
@@ -92,11 +91,9 @@
     <string name="payment_method">Payment Method</string>
     <string name="cash">Cash</string>
     <string name="card">Card</string>
-<<<<<<< HEAD
     <string name="order_history">Order History</string>
     <string name="jam_bun">Jam Bun</string>
     <string name="rs_40">Rs.40</string>
-=======
     <string name="rs_50">Rs.50</string>
     <string name="Pittu">Pittu</string>
     <string name="bill">E-bill</string>
@@ -106,5 +103,4 @@
     <string name="update">Update</string>
     <string name="cancel">Cancel</string>
     <string name="profile">Profile</string>
->>>>>>> 13cfce9fd16a0189bccc0f066c012b3f7ae085b4
 </resources>
