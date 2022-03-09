@@ -1,15 +1,17 @@
 package com.example.choonpaan
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_contact_us.*
 
 class ActivityContactUs : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contact_us)
-        //backButtonContactUs.setOnClickListener {
-        //val intent = Intent(this, Activity_Login::class.java)
-        //startActivity(intent)
-        //}
+        backButtonHelp.setOnClickListener {
+        val intent = Intent(this, HomeActivity::class.java)
+        startActivity(intent)
+        }
     }
 }

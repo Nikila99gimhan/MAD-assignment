@@ -56,7 +56,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="376dp"
-        android:layout_height="436dp"
+        android:layout_height="300dp"
         android:background="@drawable/light_backgroud"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,6 +64,19 @@
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helpText"
-        app:layout_constraintVertical_bias="0.201" />
+        app:layout_constraintVertical_bias="0.392" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Choonpan is a food-delivery app that uses GPS to connect customers with back-end item wholesalers in real time. Choonpan ensures convenience, dependability, and safety, and was created to address the day-to-day issues of customers and distributors purchasing or selling bread items through truck."
+        android:textColor="#512D18"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/untitled_2"
+    tools:context=".HomeActivity">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_baseline_help_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="59dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_baseline_calendar_view_day_24"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/trackingButton"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/choonpaanitemsButton"
+        app:layout_constraintEnd_toStartOf="@+id/preorderButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:srcCompat="@drawable/tracking" />
+
+    <ImageButton
+        android:id="@+id/preorderButton"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/ebillButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/trackingButton"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:srcCompat="@drawable/preorder" />
+
+    <ImageButton
+        android:id="@+id/choonpaanitemsButton"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewcartButton"
+        app:layout_constraintEnd_toStartOf="@+id/ebillButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trackingButton"
+        app:srcCompat="@drawable/choonpaanitems" />
+
+    <ImageButton
+        android:id="@+id/ebillButton"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newarrivalButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toEndOf="@+id/choonpaanitemsButton"
+        app:layout_constraintTop_toBottomOf="@+id/preorderButton"
+        app:srcCompat="@drawable/ebill" />
+
+    <ImageButton
+        android:id="@+id/viewcartButton"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/contactButton"
+        app:layout_constraintEnd_toStartOf="@+id/newarrivalButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choonpaanitemsButton"
+        app:srcCompat="@drawable/viewcart" />
+
+    <ImageButton
+        android:id="@+id/newarrivalButton"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/viewcartButton"
+        app:layout_constraintTop_toBottomOf="@+id/ebillButton"
+        app:srcCompat="@drawable/newarrivals" />
+
+    <ImageButton
+        android:id="@+id/contactButton"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/complainButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewcartButton"
+        app:srcCompat="@drawable/contact" />
+
+    <ImageButton
+        android:id="@+id/complainButton"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/contactButton"
+        app:layout_constraintTop_toBottomOf="@+id/newarrivalButton"
+        app:srcCompat="@drawable/complain" />
+</androidx.constraintlayout.widget.ConstraintLayout>

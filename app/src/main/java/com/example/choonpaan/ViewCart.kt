@@ -19,10 +19,10 @@ class ViewCart : AppCompatActivity() {
             val intent= Intent(this,Payment::class.java)
             startActivity(intent)
         }
-        //backButton3.setOnClickListener {
-            //val intent= Intent(this,Payment::class.java)
-            //startActivity(intent)
-        //}
+        backButton3.setOnClickListener {
+            val intent= Intent(this,HomeActivity::class.java)
+            startActivity(intent)
+        }
 
             if (cancelButn01.isChecked){
                 showToast("Item added to favourite")
